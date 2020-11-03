@@ -9,25 +9,23 @@
     	<div class="row">
     		<span class="col-sm-3">Name</span>
     		<span class="mr-1">:</span>
-    		<span class="col-sm-7"><%=name%></span>
+    		<span class="col-sm-8"><%=name%></span>
     	</div>
     	<div class="row">
     		<span class="col-sm-3">Email</span>
     		<span class="mr-1">:</span>
-    		<span class="col-sm-7"><%=mail%></span>
+    		<span class="col-sm-8"><%=mail%></span>
     	</div>
     	<div class="row">
     		<span class="col-sm-3">level</span>
     		<span class="mr-1">:</span>
-    		<span class="col-sm-7"><%=admin ? 'admin' : 'guest'%></span>
+    		<span class="col-sm-8"><%=admin ? 'admin' : 'guest'%></span>
     	</div>
-<% if(admin) { %>
         <div class="row">
             <span class="col-sm-3">flag</span>
             <span class="mr-1">:</span>
-            <span class="col-sm-7">REDUCE{6u3SSt_wH4T?-!M_AdmIN}</span>
+            <span class="col-sm-8"><%=admin ? 'REDUCE{6u3S5t_wH4T?-!M_@dM3mEn5ucCC}' : 'stullen by ORANG'%></span>
         </div>
-<% } %>
     </div>
   </div>
 </div>
