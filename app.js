@@ -26,7 +26,7 @@ fs.readdir(dirAccount, (err, files) => {
 		return console.log(err);
 
 	files.forEach((file) => {
-		if(file != flName) {
+		if(file != flName && file != '.gitignore') {
 			fs.unlinkSync(dirAccount+file);
 			console.log(`${file} deleted`);
 		}
