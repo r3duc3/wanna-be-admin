@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%=title%></title>
+	<meta charset="utf-8">
+	<link rel='stylesheet' type="text/css" href='/css/bootstrap.min.css'>
+  <link rel='stylesheet' type="text/css" href='/css/custom.css'>
+</head>
+<body>
+<div class="menu">
+	<a href="/">home</a>
+	<a href="/login">login</a>
+	<a href="/register">register</a>
+<% if(/welcome/.test(title)) { %>
+	<a href="/logout">logout</a>
+
+<% } %></div>

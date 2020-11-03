@@ -1,0 +1,28 @@
+<%- include('template/head') -%>
+<div class="container col-sm-3">
+	<h1 class="text-center"><%=title%></h1>
+	<div class="card">
+  <img class="card-img-top" src="/images/<%=admin ? 'meme_man' : 'orang'%>.png" alt="PiPi">
+  <div class="card-body">
+    <h4 class="card-title text-center">Profile</h4>
+    <div class="card-text">
+    	<div class="row">
+    		<span class="col-sm-3">Name</span>
+    		<span class="mr-1">:</span>
+    		<span class="col-sm-7"><%=name%></span>
+    	</div>
+    	<div class="row">
+    		<span class="col-sm-3">Email</span>
+    		<span class="mr-1">:</span>
+    		<span class="col-sm-7"><%=mail%></span>
+    	</div>
+    	<div class="row">
+    		<span class="col-sm-3">level</span>
+    		<span class="mr-1">:</span>
+    		<span class="col-sm-7"><%=admin ? 'admin' : 'guest'%></span>
+    	</div>
+    </div>
+  </div>
+</div>
+</div>
+<%- include('template/foot') -%>
