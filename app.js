@@ -151,8 +151,7 @@ app.post('/register', (req, res) => {
 
 			res.send(JSON.stringify({
 				'resp': 'success',
-				'msg': 'account registered',
-				'data': JSON.stringify(body)
+				'msg': 'account registered'
 			}));
 		});
 	});
