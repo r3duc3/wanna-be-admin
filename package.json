@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'fuck'"
+    "test": "echo 'fuck'",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
