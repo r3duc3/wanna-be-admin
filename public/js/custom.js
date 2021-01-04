@@ -82,8 +82,7 @@ $(() => {
           name: name,
           user: user,
           mail: mail,
-          pass: pass,
-          admin: 0
+          pass: pass
         }),
         success: (resp) => {
           resp = JSON.parse(resp);
