@@ -1,14 +1,13 @@
 {
   "name": "account-admin",
   "version": "1.0.0",
-  "description": "",
+  "description": "do you wanna be admin?",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'fuck'",
     "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "_Reduce",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
